@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <h1>Formulario Registro Estudiantes</h1>
+
+    <form action="formulario2.html" method="get">
+
+        <fieldset>
+            <legend>Datos Personales</legend>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre">
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" name="apellidos" id="apellidos">
+        <label for="carnet">Carnet:</label>
+        <input type="number" name="carnet" id="carnet">
+        <label for="dpto">Departamento:</label>
+        <select name="dpto" id="dpto">
+            <option value="cbba">Cochabamba</option>
+            <option value="lp">La Paz</option>
+            <option value="scz">Santa Cruz</option> 
+        </select>
+
+        <label for="sexo">Sexo:</label>
+        Hombre<input type="radio" name="sexo" id="sexo1" value="hombre">
+        Mujer<input type="radio" name="sexo" id="sexo2" value="mujer">
+
+        <label for="fechaNac">Fecha Nacimiento:</label>
+        <input type="date" name="fechaNac" id="fechaNac">
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                Datos Carrera
+            </legend>
+
+            <select name="" id="">
+                <option value="si">Sistemas Informaticos</option>
+                <option value="ct">Contaduria</option>
+                <option value="md">Mercadotecnia</option>
+            </select>
+            <label for="materias">Materias:</label>
+            Base de datos I<input type="checkbox" name="bdI" id="bdI" value="bdI">
+            Programacion WEB I<input type="checkbox" name="webI" id="webI" value="webI">
+            Programacion I<input type="checkbox" name="prograI" id="prograI" value="prograI">
+        </fieldset>
+
+        <input type="submit" value="Registrar">
+
+        
+
+    </form>
+    
+</body>
+</html>
